@@ -1,5 +1,5 @@
 # Store Data with Python
-With this code we are looking to query an API and store data into a MySQL database.
+Query OpenLibrary API and store books data into a MySQL database.
 
 ## Database Model
 The database will have a very simple design, with the main entites being \_\_Books\_\_, \_\_Authors\_\_, and \_\_Themes\_\_.
