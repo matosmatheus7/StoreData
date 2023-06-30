@@ -10,6 +10,8 @@ Finally, a \_\_theme\_\_ has a similar schema as an author, it has the name of t
 A book may have one to many authors, and as well, an author may have one to many books, this type of relationship is called a many-to-many relationship.
 To map the \_\_book\_\_ and \_\_author\_\_ entities together, we use a link table, using a link table helps reduce duplicate data within a table.
 
+![enter image description here](https://github.com/matosmatheus7/StoreData/blob/main/assets/erd.png?raw=true)
+
 **For example, let's look at the book:**
 This book has four authors associated with it, if we had included an \`author\` column in the \_\_book\_\_ table, there would be multiple rows with the same title, isbn, subtitle, etc.
 The same principle is applied to a \_\_book\_\_ and \_\_theme\_\_ relationship.
